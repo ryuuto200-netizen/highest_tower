@@ -1107,6 +1107,19 @@ export const items = [
     "id": 81
   },
   {
+    "name": "七尾大田火力発電所・煙突",
+    "height": 200,
+    "place": "石川県七尾市",
+    "year": null,
+    "type": "煙突",
+    "desc": "七尾市にある火力発電所の鉄塔支持型煙突です。",
+    "source": "https://www.rikuden.co.jp/press/attach/98070101.htm",
+    "shape": "chimney",
+    "dataOrigin": "施設公表値",
+    "rank": 76,
+    "id": 82
+  },
+  {
     "name": "損保ジャパン日本興亜本社ビル",
     "height": 200,
     "place": "東京都新宿区",
@@ -1118,7 +1131,7 @@ export const items = [
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 76,
-    "id": 82
+    "id": 83
   },
   {
     "name": "知多第二火力発電所・煙突",
@@ -1131,7 +1144,7 @@ export const items = [
     "shape": "chimney",
     "dataOrigin": "施設公表値",
     "rank": 76,
-    "id": 83
+    "id": 84
   },
   {
     "name": "中之島フェスティバルタワー",
@@ -1145,7 +1158,7 @@ export const items = [
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 76,
-    "id": 84
+    "id": 85
   },
   {
     "name": "中之島フェスティバルタワー・ウエスト",
@@ -1159,7 +1172,7 @@ export const items = [
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 76,
-    "id": 85
+    "id": 86
   },
   {
     "name": "電源開発 橘湾火力発電所・煙突",
@@ -1172,7 +1185,7 @@ export const items = [
     "shape": "chimney",
     "dataOrigin": "施設公表値",
     "rank": 76,
-    "id": 86
+    "id": 87
   },
   {
     "name": "東京電力本社ビル・鉄塔",
@@ -1185,7 +1198,7 @@ export const items = [
     "shape": "media",
     "dataOrigin": "施設公表値",
     "rank": 76,
-    "id": 87
+    "id": 88
   },
   {
     "name": "読売新聞ビル",
@@ -1199,7 +1212,46 @@ export const items = [
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 76,
-    "id": 88
+    "id": 89
+  },
+  {
+    "name": "敦賀火力発電所・煙突",
+    "height": 200,
+    "place": "福井県敦賀市",
+    "year": null,
+    "type": "煙突",
+    "desc": "敦賀市にある火力発電所の高い煙突です。",
+    "source": "https://azimano.info/archives/2578",
+    "shape": "chimney",
+    "dataOrigin": "施設公表値",
+    "rank": 76,
+    "id": 90
+  },
+  {
+    "name": "南港発電所・南港スカイタワー",
+    "height": 200,
+    "place": "大阪府大阪市",
+    "year": null,
+    "type": "煙突",
+    "desc": "関西電力の発電所にある集合煙突。南港スカイタワーの愛称があります。",
+    "source": "https://www.kepco.co.jp/corporate/pr/2025/pdf/20250328_3j.pdf",
+    "shape": "chimney",
+    "dataOrigin": "施設公表値",
+    "rank": 76,
+    "id": 91
+  },
+  {
+    "name": "富山新港火力発電所・煙突",
+    "height": 200,
+    "place": "富山県射水市",
+    "year": null,
+    "type": "煙突",
+    "desc": "富山新港にある発電所の煙突。県の観光情報でも高さ200mと紹介されています。",
+    "source": "https://www.info-toyama.com/articles/nissy_shinminatobridge",
+    "shape": "chimney",
+    "dataOrigin": "施設公表値",
+    "rank": 76,
+    "id": 92
   },
   {
     "name": "碧南火力発電所・煙突",
@@ -1212,7 +1264,7 @@ export const items = [
     "shape": "chimney",
     "dataOrigin": "施設公表値",
     "rank": 76,
-    "id": 89
+    "id": 93
   },
   {
     "name": "横浜北仲ノット（ザ・タワー横浜北仲）",
@@ -1225,8 +1277,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 90,
-    "id": 90
+    "rank": 94,
+    "id": 94
   },
   {
     "name": "大手町タワー",
@@ -1239,8 +1291,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 91,
-    "id": 91
+    "rank": 95,
+    "id": 95
   },
   {
     "name": "グランドシティタワー月島",
@@ -1253,8 +1305,8 @@ export const items = [
     "source": "https://www.sumitomo-rd-mansion.jp/shuto/tsukishima/detail.cgi",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 92,
-    "id": 92
+    "rank": 96,
+    "id": 96
   },
   {
     "name": "新丸の内ビルディング",
@@ -1267,8 +1319,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 93,
-    "id": 93
+    "rank": 97,
+    "id": 97
   },
   {
     "name": "シティタワー広島（ビッグフロントひろしま）",
@@ -1281,8 +1333,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 94,
-    "id": 94
+    "rank": 98,
+    "id": 98
   },
   {
     "name": "世界貿易センタービルディング南館",
@@ -1295,8 +1347,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 95,
-    "id": 95
+    "rank": 99,
+    "id": 99
   },
   {
     "name": "JPタワー名古屋",
@@ -1306,62 +1358,6 @@ export const items = [
     "floors": 40,
     "type": "ビル",
     "desc": "名古屋市中村区にある、地上40階の高層建築。2015年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
-    "shape": "building",
-    "dataOrigin": "建築物の高さ",
-    "rank": 96,
-    "id": 96
-  },
-  {
-    "name": "関電ビルディング",
-    "height": 195.45,
-    "place": "大阪市北区",
-    "year": 2004,
-    "floors": 41,
-    "type": "ビル",
-    "desc": "大阪市北区にある、地上41階の高層建築。2004年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
-    "shape": "building",
-    "dataOrigin": "建築物の高さ",
-    "rank": 97,
-    "id": 97
-  },
-  {
-    "name": "住友不動産新宿グランドタワー",
-    "height": 195.2,
-    "place": "東京都新宿区",
-    "year": 2011,
-    "floors": 40,
-    "type": "ビル",
-    "desc": "東京都新宿区にある、地上40階の高層建築。2011年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
-    "shape": "building",
-    "dataOrigin": "建築物の高さ",
-    "rank": 98,
-    "id": 98
-  },
-  {
-    "name": "ブリリアタワー堂島／フォーシーズンズホテル大阪",
-    "height": 195,
-    "place": "大阪市北区",
-    "year": 2024,
-    "floors": 49,
-    "type": "ビル",
-    "desc": "大阪市北区にある、地上49階の高層建築。2024年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
-    "shape": "building",
-    "dataOrigin": "建築物の高さ",
-    "rank": 99,
-    "id": 99
-  },
-  {
-    "name": "晴海アイランド トリトンスクエア オフィスタワーX",
-    "height": 194.9,
-    "place": "東京都中央区",
-    "year": 2001,
-    "floors": 44,
-    "type": "ビル",
-    "desc": "東京都中央区にある、地上44階の高層建築。2001年に竣工しました。",
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",

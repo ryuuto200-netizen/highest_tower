@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three.module.min.js';
-import { items } from './data.js?v=20261101b';
+import { items } from './data.js?v=20261101c';
 
 const $ = s => document.querySelector(s);
 let index = 0, filter = 'すべて', spinning = !matchMedia('(prefers-reduced-motion: reduce)').matches;
