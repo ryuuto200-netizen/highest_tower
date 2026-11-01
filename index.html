@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11161c">
+  <meta name="description" content="日本の高い建造物を、立体モデルとともに巡るデジタル図鑑。">
+  <title>日本を、見上げよう。｜高さの図鑑 100</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="高さの図鑑 ホーム"><span class="brand-icon">▥</span><span>高さの図鑑<small>JAPAN HEIGHT ATLAS</small></span></a>
+  <div class="header-right"><span class="edition">2026 EDITION</span><button class="index-open" id="index-open" aria-label="建造物の一覧を開く"><span class="grid-icon">▦</span> 一覧を見る</button></div>
+</header>
+<main id="top">
+  <section class="intro">
+    <div><div class="overline"><span class="dot"></span> 100 STRUCTURES IN JAPAN</div><h1>日本を、<span>見上げよう。</span></h1><p>空に向かってのびる、100のかたち。<br class="only-mobile">高さから、日本を旅する立体図鑑。</p></div>
+    <button id="about-open" class="about-button">この図鑑について <span>↗</span></button>
+  </section>
+  <section class="atlas" aria-label="建造物ギャラリー">
+    <div class="viewer" id="viewer">
+      <div class="viewer-meta"><span class="viewer-label"><i></i> 3D MODEL</span><span>DRAG TO ROTATE <span class="tiny-arrow">↔</span></span></div>
+      <div class="guide guide-top"><span>634</span><i></i><small>東京スカイツリー</small></div>
+      <div class="model-stage"><canvas id="canvas" aria-label="選択した建造物の簡略化された3Dモデル"></canvas><canvas id="fallback-canvas" aria-label="選択した建造物の簡略化された立体イメージ" hidden></canvas><div id="fallback" hidden>3D表示を利用できません。建造物の情報は右側からご覧いただけます。</div></div>
+      <div class="axis"><span>0 m</span><i></i></div>
+      <div class="model-bottom"><span>形状は簡略化したイメージです</span><button id="spin-toggle" aria-label="自動回転の停止">◉ <span>回転中</span></button></div>
+      <div class="viewer-gradient"></div>
+    </div>
+    <div class="details" id="slide-area" tabindex="0" aria-label="建造物情報。左右の矢印キーで切り替え">
+      <div class="ranking"><span class="rank-label">RANKING</span><span class="rank" id="rank">01</span><span class="rank-of">/ 100 <small>暫定</small></span></div>
+      <div class="detail-content"><div class="tags"><span id="type" class="tag">電波塔</span><span id="pref" class="location">東京都墨田区</span></div><h2 id="name">東京スカイツリー</h2><p class="description" id="description"></p>
+        <div class="height-row"><div><span class="field-label">HEIGHT</span><div class="height"><span id="height">634</span><small>m</small></div></div><div class="facts"><div><span>完成</span><strong id="year">2012年</strong></div><div><span>高さの基準</span><strong id="basis">施設公表値</strong></div></div></div>
+        <div class="compare-head"><span>東京スカイツリーとの高さ比較</span><strong id="ratio">100%</strong></div><div class="progress"><i id="bar"></i></div>
+        <a class="source" id="source" href="#" target="_blank" rel="noopener noreferrer">高さ・施設の出典を見る <span>↗</span></a>
+      </div>
+      <div class="navigation"><div class="nav-count"><strong id="position">001</strong><span> / <span id="total">100</span></span><i></i><small>SWIPE TO EXPLORE</small></div><div class="arrows"><button id="prev" aria-label="前の建造物">←</button><button id="next" aria-label="次の建造物">→</button></div></div>
+    </div>
+  </section>
+  <section class="below"><div><span>01 / DISCOVER</span><h2>高さの先にある、<br>それぞれの物語。</h2></div><p>見慣れた街のシンボルから、暮らしを支える鉄塔まで。<br>名前や地域から探して、気になる建造物に出会ってみよう。</p><button id="index-open-bottom">100件から探す <span>↗</span></button></section>
+</main>
+<footer><div class="footer-brand">高さの図鑑 <span>JAPAN HEIGHT ATLAS</span></div><p>掲載順位は確認できた資料に基づく暫定値です。建物・塔・橋などは高さの基準が異なる場合があります。</p><button id="about-open-footer">集計の考え方と出典 →</button></footer>
+<div class="overlay" id="drawer" aria-hidden="true"><button class="backdrop" data-close aria-label="一覧を閉じる"></button><aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title"><div class="drawer-top"><div><span class="eyebrow">EXPLORE THE ATLAS</span><h2 id="drawer-title">建造物を探す</h2></div><button class="close" data-close aria-label="閉じる">×</button></div><label class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="名前・地域を入力" autocomplete="off"></label><div class="filter-row" id="filters" aria-label="種類で絞り込む"><button data-filter="すべて" class="active">すべて</button><button data-filter="ビル">ビル</button><button data-filter="塔">タワー・鉄塔</button><button data-filter="橋">橋</button><button data-filter="煙突">煙突</button></div><div class="list-head"><span>NAME / LOCATION</span><span id="result-count">100 件</span></div><div id="list" class="list"></div></aside></div>
+<div class="overlay modal" id="about" aria-hidden="true"><button class="backdrop" data-close aria-label="閉じる"></button><article class="about-panel" role="dialog" aria-modal="true" aria-labelledby="about-title"><div class="drawer-top"><div><span class="eyebrow">ABOUT THE ATLAS</span><h2 id="about-title">この図鑑について</h2></div><button class="close" data-close aria-label="閉じる">×</button></div><h3>100件は、調査できた範囲での暫定順位です。</h3><p>完成済みの高層ビル、電波塔、送電鉄塔、煙突、橋などを集め、高い順に表示しています。施設の一群は代表例を1件として扱う場合があります。公開情報に漏れや、撤去・新築の反映遅れがあり得るため、全国の全構造物を完全に網羅した厳密な順位ではありません。同じ高さは同順位です。</p><h3>高さの測り方</h3><p>ビルは主に建築物の高さ、通信塔などは公表されている塔頂までの高さを使用。橋は海面から主塔の頂上までの高さを採用しています。アンテナ等の扱いや基準面は施設・資料ごとに異なり、厳密に同じ基準ではありません。各施設の出典から定義をご確認ください。</p><h3>立体モデルについて</h3><p>全モデルは高さや主な特徴をもとにした簡略表現で、正確な図面や実物の詳細な再現ではありません。モデルは画面に合わせて拡大しているため、高さの比率は比較バーをご覧ください。</p><h3>主な参考資料</h3><p><a href="https://skyskysky.net/003-list.html" target="_blank" rel="noopener noreferrer">日本の超高層ビル 全国一覧 ↗</a><br><a href="https://www.tokyo-skytree.jp/group/pre-learning/skytree/construction/overview.php" target="_blank" rel="noopener noreferrer">東京スカイツリー 公式概要 ↗</a><br><a href="https://www.jb-honshi.co.jp/corp_index/technology/introduction/introduction_akashi.html" target="_blank" rel="noopener noreferrer">JB本四高速 明石海峡大橋 ↗</a><br><a href="https://www.nict.go.jp/publication/CRL_News/9906/ootakadoya.html" target="_blank" rel="noopener noreferrer">NICT 標準電波送信所 ↗</a></p><p class="updated">資料確認日：2026年11月1日</p></article></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
