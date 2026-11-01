@@ -303,11 +303,11 @@ export const items = [
     "name": "NTTドコモ代々木ビル",
     "height": 239.85,
     "place": "東京都渋谷区",
-    "year": 1997,
+    "year": 2000,
     "floors": 27,
     "type": "ビル",
-    "desc": "東京都渋谷区にある、地上27階の高層建築。1997年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
+    "desc": "新宿南側のランドマーク。表示した239.85mは建築物の高さで、頂部の設備を含む数値とは異なります。",
+    "source": "https://www.docomo.ne.jp/corporate/csr/ecology/environ_management/guideline/green_design/yoyogi.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 23,
@@ -383,20 +383,6 @@ export const items = [
     "id": 28
   },
   {
-    "name": "BLUE FRONT SHIBAURA　S棟",
-    "height": 235,
-    "place": "東京都港区",
-    "year": 2025,
-    "floors": 43,
-    "type": "ビル",
-    "desc": "東京都港区にある、地上43階の高層建築。2025年に竣工しました。",
-    "source": "https://skyskysky.net/003-list.html",
-    "shape": "building",
-    "dataOrigin": "建築物の高さ",
-    "rank": 29,
-    "id": 29
-  },
-  {
     "name": "新宿パークタワー",
     "height": 235,
     "place": "東京都新宿区",
@@ -408,7 +394,7 @@ export const items = [
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 29,
-    "id": 30
+    "id": 29
   },
   {
     "name": "東京オペラシティ",
@@ -421,8 +407,8 @@ export const items = [
     "source": "https://www.tokyooperacity.co.jp/",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 31,
-    "id": 31
+    "rank": 30,
+    "id": 30
   },
   {
     "name": "福岡タワー",
@@ -434,8 +420,8 @@ export const items = [
     "source": "https://www.fukuokatower.co.jp/",
     "shape": "fukuoka",
     "dataOrigin": "施設公表値",
-    "rank": 32,
-    "id": 32
+    "rank": 31,
+    "id": 31
   },
   {
     "name": "住友不動産六本木グランドタワー",
@@ -448,8 +434,8 @@ export const items = [
     "source": "https://skyskysky.net/003-list.html",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
-    "rank": 33,
-    "id": 33
+    "rank": 32,
+    "id": 32
   },
   {
     "name": "常陸那珂火力発電所・煙突",
@@ -461,8 +447,8 @@ export const items = [
     "source": "https://www.city.hitachinaka.lg.jp/business/kigyoyuchi/1001656/1001660.html",
     "shape": "chimney",
     "dataOrigin": "施設公表値",
-    "rank": 34,
-    "id": 34
+    "rank": 33,
+    "id": 33
   },
   {
     "name": "渋谷スクランブルスクエア",
@@ -473,6 +459,20 @@ export const items = [
     "type": "ビル",
     "desc": "東京都渋谷区にある、地上47階の高層建築。2019年に竣工しました。",
     "source": "https://skyskysky.net/003-list.html",
+    "shape": "building",
+    "dataOrigin": "建築物の高さ",
+    "rank": 34,
+    "id": 34
+  },
+  {
+    "name": "BLUE FRONT SHIBAURA TOWER S",
+    "height": 228.88,
+    "place": "東京都港区",
+    "year": 2025,
+    "floors": 43,
+    "type": "ビル",
+    "desc": "芝浦にある高層複合ビル。2025年2月に竣工した、高さ228.88mのタワーです。",
+    "source": "https://anuht.or.jp/pages/81?b_id=1779&detail=1&r_id=288",
     "shape": "building",
     "dataOrigin": "建築物の高さ",
     "rank": 35,
